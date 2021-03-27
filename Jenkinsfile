@@ -6,7 +6,7 @@ node {
 
     def SF_CONSUMER_KEY=env.SF_CONSUMER_KEY
     def SF_USERNAME=env.SF_USERNAME
-    def SERVER_KEY_CREDENTALS_ID='server_key_file'
+    def SERVER_KEY_CREDENTALS_ID=ev.SERVER_KEY_CREDENTALS_ID
     def TEST_LEVEL='RunLocalTests'
     def PACKAGE_NAME
     def PACKAGE_VERSION
